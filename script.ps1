@@ -33,19 +33,28 @@ $appList = @(
     
     @{Name = "FACEIT"; ID = "FACEITLTD.FACEITClient"},    
     @{Name = "Hydra Launcher"; ID = "HydraLauncher.Hydra"},
+
+    ## SOCIAL
+    @{Name = "Spotify"; ID = "Spotify.Spotify"},
+    @{Name = "Telegram Desktop"; ID = "Telegram.TelegramDesktop"},
+    @{Name = "qBitTorrent"; ID = "qBittorrent.qBittorrent"},
+    @{Name = "7-Zip"; ID = "7zip.7zip"},
+
+    ## TWEAKS
+    @{Name = "Winaero Tweaker"; ID = "winaero.tweaker"},
     
-    @{Name = "Hydra Launcher"; ID = "HydraLauncher.Hydra"},
-
-
+    @{Name = "Microsoft PowerToys"; ID = "Microsoft.PowerToys"},
+    @{Name = "Everything"; ID = "voidtools.Everything"},
+    @{Name = "Everything PowerToys"; ID = "lin-ycv.EverythingPowerToys"},
+    
+    @{Name = "iCloud"; ID = "9PKTQ5699M62"},
+    @{Name = "Bitvise SSH Client"; ID = "Bitvise.SSH.Client"},
 
     ## DEVELOP
-
     @{Name = "Java(TM) SE Development Kit 21"; ID = "Oracle.JDK.21"},
     @{Name = "IntelliJ IDEA Community Edition"; ID = "JetBrains.IntelliJIDEA.Community"},
-    @{Name = "WebStorm"; ID = "JetBrains.WebStorm"},
-    @{Name = "IntelliJ IDEA Community Edition"; ID = "JetBrains.IntelliJIDEA.Community"},
-    @{Name = "IntelliJ IDEA Community Edition"; ID = "JetBrains.IntelliJIDEA.Community"},
-    
+    @{Name = "VSCode"; ID = "Microsoft.VisualStudioCode"},
+    @{Name = "Notepad++"; ID = "Notepad++.Notepad++"}
 )
 
 $CheckBoxes = @()
