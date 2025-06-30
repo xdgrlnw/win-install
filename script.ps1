@@ -26,11 +26,26 @@ $appList = @(
     @{Name = "Steam"; ID = "Valve.Steam"},
     @{Name = "Steam Achievment Manager"; ID = "Gibbed.SteamAchievementManager"},
     @{Name = "BattleNet"; ID = "Blizzard.BattleNet"},
-    @{Name = "Minecraft Prism Launcher"; ID = "PrismLauncher.PrismLauncher"},
-    @{Name = "Minecraft Ely Prism Launcher"; ID = "ElyPrismLauncher.ElyPrismLauncher"},    
-    @{Name = "FACEIT"; ID = "FACEITLTD.FACEITClient"},    
-    @{Name = "Hydra Launcher"; ID = "HydraLauncher.Hydra"} 
 
+    @{Name = "Mojang Minecraft Launcher"; ID = "Mojang.MinecraftLauncher"},
+    @{Name = "Minecraft Prism Launcher"; ID = "PrismLauncher.PrismLauncher"},
+    @{Name = "Minecraft Ely Prism Launcher"; ID = "ElyPrismLauncher.ElyPrismLauncher"}, 
+    
+    @{Name = "FACEIT"; ID = "FACEITLTD.FACEITClient"},    
+    @{Name = "Hydra Launcher"; ID = "HydraLauncher.Hydra"},
+    
+    @{Name = "Hydra Launcher"; ID = "HydraLauncher.Hydra"},
+
+
+
+    ## DEVELOP
+
+    @{Name = "Java(TM) SE Development Kit 21"; ID = "Oracle.JDK.21"},
+    @{Name = "IntelliJ IDEA Community Edition"; ID = "JetBrains.IntelliJIDEA.Community"},
+    @{Name = "WebStorm"; ID = "JetBrains.WebStorm"},
+    @{Name = "IntelliJ IDEA Community Edition"; ID = "JetBrains.IntelliJIDEA.Community"},
+    @{Name = "IntelliJ IDEA Community Edition"; ID = "JetBrains.IntelliJIDEA.Community"},
+    
 )
 
 $CheckBoxes = @()
