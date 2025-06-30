@@ -18,7 +18,19 @@ $ScrollPanel.AutoScroll = $false
 $List.Controls.Add($ScrollPanel)
 
 $appList = @(
-    @{Name = "Test"; ID = "test.id"}
+    ## BROWSERS
+    @{Name = "Google Chrome"; ID = "Google.Chrome"},
+
+    ## GAMING
+    @{Name = "Discord"; ID = "Discord.Discord"},
+    @{Name = "Steam"; ID = "Valve.Steam"},
+    @{Name = "Steam Achievment Manager"; ID = "Gibbed.SteamAchievementManager"},
+    @{Name = "BattleNet"; ID = "Blizzard.BattleNet"},
+    @{Name = "Minecraft Prism Launcher"; ID = "PrismLauncher.PrismLauncher"},
+    @{Name = "Minecraft Ely Prism Launcher"; ID = "ElyPrismLauncher.ElyPrismLauncher"},    
+    @{Name = "FACEIT"; ID = "FACEITLTD.FACEITClient"},    
+    @{Name = "Hydra Launcher"; ID = "HydraLauncher.Hydra"} 
+
 )
 
 $CheckBoxes = @()
