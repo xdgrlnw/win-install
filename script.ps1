@@ -40,7 +40,7 @@ foreach ($app in $appList) {
     $cb = New-Object System.Windows.Forms.CheckBox
     $cb.Text = $app.Name
     $cb.Tag = $app.ID
-    $cb.Width = 260
+    $cb.Width = 240
     $cb.Location = New-Object System.Drawing.Point(0, $y)
     $cb.Font = New-Object System.Drawing.Font('Microsoft Sans Serif',10)
     $CheckBoxes += $cb
